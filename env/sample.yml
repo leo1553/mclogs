@@ -1,0 +1,7 @@
+local:
+  DATABASE_DIALECT: mssql
+  DATABASE_HOST: localhost
+  DATABASE_DATABASE: database
+  DATABASE_USERNAME: username
+  DATABASE_PASSWORD: password
+  LOG_DIRECTORY: /path/to/logs/

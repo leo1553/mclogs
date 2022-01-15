@@ -1,0 +1,9 @@
+/.vscode/
+/bkp/
+/dist/
+/generated/
+/logs/
+/node_modules/
+
+/package-lock.json
+/env/local.yml

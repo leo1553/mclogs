@@ -1,0 +1,650 @@
+[
+	{
+		"pattern": "([^ ]+) was shot by (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was shot by (.+) using (.+)",
+		"groups": [
+			"player",
+			"killer",
+			"item"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was pummeled by (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was pummeled by (.+) using (.+)",
+		"groups": [
+			"player",
+			"killer",
+			"item"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was pricked to death",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) walked into a cactus whilst trying to escape (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) drowned",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) drowned whilst trying to escape (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) experienced kinetic energy",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) experienced kinetic energy whilst trying to escape (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) blew up",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was blown up by (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was blown up by (.+) using (.+)",
+		"groups": [
+			"player",
+			"killer",
+			"item"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was killed by [Intentional Game Design]",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) hit the ground too hard",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) hit the ground too hard whilst trying to escape (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) fell from a high place",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) fell off a ladder",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) fell off some vines",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) fell off some weeping vines",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) fell off some twisting vines",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) fell off scaffolding",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) fell while climbing",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was impaled on a stalagmite",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was impaled on a stalagmite whilst fighting (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was squashed by a falling anvil",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was squashed by a falling anvil whilst fighting (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was squashed by a falling block",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was squashed by a falling block whilst fighting (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was skewered by a falling stalactite",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was skewered by a falling stalactite whilst fighting (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) went up in flames",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) walked into fire whilst fighting (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) burned to death",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was burnt to a crisp whilst fighting (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) went off with a bang",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) went off with a bang due to a firework fired from (.+) by (.+)",
+		"groups": [
+			"player",
+			"item",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) tried to swim in lava",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) tried to swim in lava to escape (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was struck by lightning",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was struck by lightning whilst fighting (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) discovered the floor was lava",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) walked into danger zone due to (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was killed by magic",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was killed by magic whilst trying to escape (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was killed by (.+) using magic",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was killed by (.+) using (.+)",
+		"groups": [
+			"player",
+			"killer",
+			"item"
+		]
+	},
+	{
+		"pattern": "([^ ]+) froze to death",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was frozen to death by (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was slain by (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was slain by (.+) using (.+)",
+		"groups": [
+			"player",
+			"killer",
+			"item"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was fireballed by (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was fireballed by (.+) using (.+)",
+		"groups": [
+			"player",
+			"killer",
+			"item"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was stung to death",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was shot by a skull from (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) starved to death",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) starved to death whilst fighting (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) suffocated in a wall",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) suffocated in a wall whilst fighting (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was squished too much",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was squashed by (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was poked to death by a sweet berry bush",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was poked to death by a sweet berry bush whilst trying to escape (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was killed trying to hurt (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was killed by (.+) trying to hurt (.+)",
+		"groups": [
+			"player",
+			"item",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was impaled by (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was impaled by (.+) with (.+)",
+		"groups": [
+			"player",
+			"killer",
+			"item"
+		]
+	},
+	{
+		"pattern": "([^ ]+) fell out of the world",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) didn't want to live in the same world as (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) withered away",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) withered away whilst fighting (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) died from dehydration",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) died from dehydration whilst trying to escape (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) died",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) died because of (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was roasted in dragon breath",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was roasted in dragon breath by (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was doomed to fall",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was doomed to fall by (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was doomed to fall by (.+) using (.+)",
+		"groups": [
+			"player",
+			"killer",
+			"item"
+		]
+	},
+	{
+		"pattern": "([^ ]+) fell too far and was finished by (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) fell too far and was finished by (.+) using (.+)",
+		"groups": [
+			"player",
+			"killer",
+			"item"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was stung to death by (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) went off with a bang whilst fighting (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was killed by even more magic",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was too soft for this world",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was too soft for this world ((.+) helped)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was slain by Arrow",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was blown up by Block of TNT",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) discovered floor was lava",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was slain by Small Fireball",
+		"groups": [
+			"player"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was impaled to death by (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was sniped by (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was spitballed by (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) walked on danger zone due to (.+)",
+		"groups": [
+			"player",
+			"killer"
+		]
+	},
+	{
+		"pattern": "([^ ]+) was slain by ([^ ]+) using (.+)",
+		"groups": [
+			"player",
+			"killer",
+			"item"
+		]
+	},
+	{
+		"pattern": "([^ ]+) fell out of the water",
+		"groups": [
+			"player"
+		]
+	}
+]
